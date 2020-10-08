@@ -1,7 +1,10 @@
 header{
   background-color: $secondaryColor;
   height: 60px;
-  .logo img{
-    width: 50px;
+  .logo{
+    img{
+    width: 40px;
+    margin: 10px 0 0 200px;
+    }
   }
 }

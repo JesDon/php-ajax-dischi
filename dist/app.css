@@ -19,7 +19,8 @@ header {
 }
 
 header .logo img {
-  width: 50px;
+  width: 40px;
+  margin: 10px 0 0 200px;
 }
 
 main {
