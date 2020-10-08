@@ -4,7 +4,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">;
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/app.css">
     <title>Dischi</title>
   </head>
@@ -12,7 +12,7 @@
 
     <header>
       <div class="logo">
-        <img src="img/logo.png" alt="">
+        <img src="img/logo.png" alt="logo">
       </div>
     </header>
 
