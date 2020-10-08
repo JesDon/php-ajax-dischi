@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  background-color: #2E3A46;
+  height: 60px;
+}
+
+header .logo img {
+  width: 50px;
+}
+
+main {
+  background-color: #1E2D3B;
+  width: 100%;
+  padding: 50px;
+}
+
+.dischi {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dischi .cd {
+  width: calc((100% / 4) - 40px);
+  margin: 20px;
+  padding: 20px;
+  background-color: #2E3A46;
+  text-align: center;
+}
+
+.dischi .cd .poster img {
+  width: 100%;
+}
+
+.dischi .cd h3 {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+.dischi .cd p {
+  color: grey;
+  font-size: 14px;
+}
+

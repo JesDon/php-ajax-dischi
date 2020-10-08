@@ -1,0 +1,30 @@
+main{
+  background-color: $mainColor;
+  width: 100%;
+  padding: 50px;
+}
+
+.dischi{
+  display: flex;
+  flex-wrap: wrap;
+    .cd{
+      width: calc((100% / 4) - 40px);
+      margin: 20px;
+      padding: 20px;
+      background-color: $secondaryColor;
+      text-align: center;
+        .poster img{
+          width: 100%;
+        }
+        h3{
+          color: $textMainColor;
+          text-transform: uppercase;
+          padding: 20px 0;
+          font-size: 15px;
+        }
+        p{
+          color: $textSecondaryColor;
+          font-size: 14px;
+        }
+    }
+}
