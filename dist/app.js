@@ -16115,11 +16115,11 @@ function risultati(data) {
       "autore": data[i]["author"],
       "anno": data[i]["year"]
     };
+    var html = template(context);
+    $(".dischi").append(html);
   }
 
   ;
-  var html = template(context);
-  $(".dischi").append(html);
 }
 
 /***/ }),
