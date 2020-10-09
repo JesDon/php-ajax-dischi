@@ -25,10 +25,10 @@ function risultati(data) {
 
   for (var i = 0; i < data.length; i++) {
     var context = {
-      locandina = data[i].poster,
-      titolo = data[i].title,
-      autore = data[i].author,
-      anno = data[i].year,
+      "locandina": data[i]["poster"],
+      "titolo": data[i]["title"],
+      "autore": data[i]["author"],
+      "anno": data[i]["year"]
     };
   };
 
